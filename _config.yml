@@ -9,11 +9,11 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Crumbs from Cyber toastings
-tagline: Site Tagline
+title : Cyber Crumbs 
+tagline: . . . . <= those be crumbs
 author :
   name : cybertoast
-  email : 
+  email : cybertoast@gmail.com
   github : cybertoast
   twitter : churchofchai
 
