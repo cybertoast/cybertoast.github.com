@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Cyber Crumbs
 ---
 {% include JB/setup %}
 
