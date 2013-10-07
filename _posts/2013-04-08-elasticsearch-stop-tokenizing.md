@@ -15,7 +15,7 @@ The solution is to change the analyzer, which performs the token parsing. The ex
 steps will be documented in a later post.
 
     
-*Reference*
+## Reference
 
 * http://elasticsearch-users.115913.n3.nabble.com/Faceted-search-grouped-by-full-term-td3185007.html
 

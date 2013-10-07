@@ -7,7 +7,7 @@ tags: [aptana development ide]
 ---
 {% include JB/setup %}
 
-Aptana (and Ecliple) sometimes have the bad habit of getting corrupted. This 
+Aptana (and Eclipee) sometimes have the bad habit of getting corrupted. This 
 often happens when your machine crashes (kernel panic on OSX, BSOD on windows).
 
 The symptom is annoying - aptana/eclipse will open, but no interaction is possible

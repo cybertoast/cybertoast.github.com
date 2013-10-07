@@ -3,7 +3,7 @@ layout: post
 title: "Elastic Rivers to Mongo"
 description: "ElasticSearch river to a MongoDB"
 category: 
-tags: ["mongo", "esdb", "elasticsearch", "river", "full-text-search"]
+tags: [mongo, esdb, elasticsearch, river, full-text-search]
 ---
 {% include JB/setup %}
 
