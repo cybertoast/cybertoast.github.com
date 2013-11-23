@@ -16,12 +16,12 @@ that i do, i often will get
 
 when I access a local resource that I've defined in my etc/apache2/other/blah.conf.
 
-The way around this is to add _www into the staff group. Since Apple also deems the 
+The way around this is to add \_www into the staff group. Since Apple also deems the 
 standard usermod command to be too gauche, they have dscl that I have to remember.
 
 So the way around this is:
 
-    sudo dscl . -append /Groups/staff GroupMembership "_www"
+    sudo dscl . -append /Groups/staff GroupMembership "\_www"
 
 Restarting apache may still yield the Forbidden message. This is probably because 
 of PHP not being configured. Let's test this
