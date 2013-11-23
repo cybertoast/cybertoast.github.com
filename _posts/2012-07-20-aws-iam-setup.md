@@ -10,6 +10,7 @@ tags: []
 Yeah, it's easy to create an IAM and just run hog wild. But there's a sequence of steps that MUST be followed if you don't want the dreaded `Permission Denied` or `This access not available` or `Your kittens are being blended`.
 
 So the idiot's way of doing it:
+
 * Log in to AWS console
 * Create IAM Group with permissions to have Usage Reports and Account Activity
 * Add permissions
@@ -20,6 +21,7 @@ So the idiot's way of doing it:
 * Get `Permission Denied`. Woot!
 
 And the correct way of doing it:
+
 * Log in as admin to your AWS account
 * Go to the [Personal Information](https://portal.aws.amazon.com/gp/aws/developer/account/index.html?ie=UTF8&action=edit-aws-profile) section 
     * Fill out all the 'Security Challenge Questions'
@@ -35,6 +37,7 @@ And the correct way of doing it:
 * Select the user's name from the top-right drop-down and go to Usage Reports or Account Activity
 * No more `Permission Denied`
 
-References:
+### References:
+
 * http://docs.amazonwebservices.com/IAM/latest/UserGuide/ControllingAccessWebsite.html
 * http://www.nslms.com/2011/04/04/enabling-aws-console-login-for-iam-users/

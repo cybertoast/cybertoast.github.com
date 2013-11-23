@@ -13,5 +13,6 @@ then again, ruby has [rvm][http://rvm.io]. so go figure ...
 `rvm + sandbox = virtualenv`
 
 Also, ipsum'ing options: 
+
 * [Samuel L. Ipsum](http://slipsum.com/) 
 * [Cupcake Ipsum](http://cupcakeipsum.com)

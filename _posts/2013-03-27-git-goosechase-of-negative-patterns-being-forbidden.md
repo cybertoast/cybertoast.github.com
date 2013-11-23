@@ -36,7 +36,7 @@ The problem is that having an entry in .gitattributes without that entry having 
 as far as git is concerned (ie that it's not committed or in .gitignore) seems to cause
 an error.
 
-*Update 3/30/2013*
+*_Update 3/30/2013_*
 
 It appears that the above assessment is completely incorrect. The problem was due to
 version incompatibility between client 1.8.x and server 1.7.x, from what I can tell.

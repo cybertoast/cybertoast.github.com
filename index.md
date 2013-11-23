@@ -1,14 +1,12 @@
 ---
 layout: page
-title: Cyber Crumbs
+title: 
 ---
-{% include JB/setup %}
-
 <ul class="posts">
   {% for post in site.posts %}
     <li>
+        <h2 class="title"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
         <span class="date">{{ post.date | date_to_string }}</span> 
-        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
         <p class="content">
         {{ post.content }}
         </p>

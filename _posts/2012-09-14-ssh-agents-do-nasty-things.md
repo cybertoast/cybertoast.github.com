@@ -76,7 +76,7 @@ Ok, now let's try that again
 
 Ok, all good.
 
-_Reference_
+### Reference
 
 * http://www.akibako.com/2011/04/ssh-and.html
 

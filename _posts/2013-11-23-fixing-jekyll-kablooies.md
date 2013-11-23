@@ -3,7 +3,7 @@ layout: post
 title: "Fixing jekyll kablooies"
 description: "Or just test the damn think locally"
 category: 
-tags: [jekyll markdown errors]
+tags: ["jekyll", "markdown", "errors"]
 ---
 {% include JB/setup %}
 
@@ -28,7 +28,7 @@ I like my environments separated
     
 Errors are then pretty damn apparent through the stracktrace.
 
-## References
+### References
 
 * [Nkryptic-Sandbox](https://github.com/nkryptic/sandbox/tree/master)
 * [Jekyll Quickstart](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
