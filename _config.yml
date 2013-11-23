@@ -31,6 +31,7 @@ production_url : http://cybertoast.github.com
 #
 JB :
   version : 0.2.13
+  future: false     # tell jekyll not to display future posts
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
