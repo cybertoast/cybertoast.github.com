@@ -13,14 +13,14 @@ connecting MongoDB to ESDB via a "river", which is basically a way to
 stream content from Mongo's (or any database's) transaction/replication
 logs to ElasticSearch. Following are the steps to set this up for Mongo.
 
-## References
+### References
 
 * http://docs.mongodb.org/manual/tutorial/convert-standalone-to-replica-set/
 * https://coderwall.com/p/sy1qcw
 * https://github.com/richardwilly98/elasticsearch-river-mongodb/wiki
 
 
-## Configuration and Setup
+### Configuration and Setup
 
 Set up mongodb to have replicasets. In mongod.conf, add:
 
@@ -41,7 +41,7 @@ So your prompt should look like:
     
     rs0:PRIMARY>
 
-## Installing ESDB
+### Installing ESDB
 
     brew/yum/apt-get install elasticsearch
 
@@ -112,7 +112,7 @@ Pay particular attention to the credentials section:
       }
     }'
 
-## Troubleshooting
+### Troubleshooting
 
     Mongo gave an exception com.mongodb.MongoException: not authorized for query on local.system.namespaces
 
